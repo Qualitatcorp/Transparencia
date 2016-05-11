@@ -1,0 +1,2096 @@
+fileFormatVersion: 2
+guid: 05544c5d2587ff249a491ca9cbccd35f
+timeCreated: 1462197861
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ARPEX_6_140_1,625_42.1
+    100002: Baranda fondo
+    100004: baranda frente
+    100006: Barandas arriba
+    100008: Box005
+    100010: Box006
+    100012: Box007
+    100014: Box008
+    100016: Box044
+    100018: Box050
+    100020: Box074
+    100022: Box078
+    100024: Box081
+    100026: Box124
+    100028: Box153
+    100030: Box154
+    100032: Box159
+    100034: Box161
+    100036: Box162
+    100038: Box163
+    100040: Box189
+    100042: Box190
+    100044: Box268
+    100046: Box272
+    100048: Box289
+    100050: Box299
+    100052: Box310
+    100054: Box313
+    100056: Box327
+    100058: Box329
+    100060: Box340
+    100062: Box341
+    100064: Box345
+    100066: Box357
+    100068: Box360
+    100070: Box375
+    100072: Box391
+    100074: Box396
+    100076: Box402
+    100078: Box403
+    100080: Box410
+    100082: Box411
+    100084: Box412
+    100086: Box414
+    100088: Box416
+    100090: Box418
+    100092: Caja rara abajo
+    100094: CAL0007344_00
+    100096: CAL0007344_00.1
+    100098: CAL0007345_00
+    100100: CAL0007345_00.1
+    100102: CAL0007346_00
+    100104: CAL0007346_00.1
+    100106: CAL0007347_00
+    100108: CAL0007347_00.1
+    100110: CAL0007354.1
+    100112: CAL1038381_SA0.1
+    100114: CAL1038381_SA99.1
+    100116: CAL1038546_00
+    100118: CAL1038546_00.1
+    100120: CAL1038547_00
+    100122: CAL1038547_00.1
+    100124: CAL1038549_00.1
+    100126: CAL1038550_00.1
+    100128: CAL1038551_00
+    100130: CAL1038551_00.1
+    100132: CAL1038561_00
+    100134: CAL1038561_00.1
+    100136: CAL1038985_00
+    100138: CAL1038985_00.1
+    100140: CAL1039003_SA0.1
+    100142: CAL1039005_SA0.1
+    100144: CAL1039008_SA0.1
+    100146: CAL1039022.1
+    100148: CAL1039022_01.1
+    100150: CAL1039022_02.1
+    100152: CAL1039034.1
+    100154: CAL1039034_01.1
+    100156: CAL1039034_02.1
+    100158: CAL1039034_03.1
+    100160: CAL1039034_04.1
+    100162: CAL1039121_SA01.1
+    100164: CAL1039123_00
+    100166: CAL1039123_00 1
+    100168: CAL2019805_00
+    100170: CAL2019805_00.1
+    100172: CAL2019847_00
+    100174: CAL2019847_00.1
+    100176: CAL2019850.1
+    100178: CAL2019850.1 1
+    100180: CAL3079100_00
+    100182: CAL3079100_00 1
+    100184: CAL3079100_00 2
+    100186: CAL3079100_00 3
+    100188: CAL3079100_00.1
+    100190: CAL3079100_00.1 1
+    100192: CAL3079100_00.2
+    100194: CAL3079100_00.2 1
+    100196: CAL3079196_00.1
+    100198: CAL3079197
+    100200: CAL3079197 1
+    100202: CAL3079199
+    100204: CAL3079199 1
+    100206: CAL3079200
+    100208: CAL3079200 1
+    100210: CAL3079200.1
+    100212: CAL3079200.2
+    100214: CAL3079201
+    100216: CAL3079201 1
+    100218: CAL3079201.1
+    100220: CAL3079201.2
+    100222: CAL5001228_00.1
+    100224: CAL5001228_SA1.1
+    100226: CAL5001228_SA2.1
+    100228: CAL5001228_SA3.1
+    100230: Caldera
+    100232: CALZ003112_00
+    100234: CALZ003112_00.1
+    100236: "Ca\xF1erias abajo"
+    100238: COA3104253_00.1
+    100240: COA3104253_00.1 1
+    100242: COA3104253_00.2
+    100244: COA3104253_00.2 1
+    100246: COA3104253_00.3
+    100248: COA3104253_00.4
+    100250: COA8001836.1
+    100252: Compuerta
+    100254: Cosa Rara abajo
+    100256: Cylinder006
+    100258: Cylinder007
+    100260: Cylinder011
+    100262: Cylinder022
+    100264: Cylinder023
+    100266: Cylinder029
+    100268: Cylinder070
+    100270: Cylinder095
+    100272: Cylinder098
+    100274: Cylinder101
+    100276: Cylinder112
+    100278: Cylinder122
+    100280: Cylinder123
+    100282: Cylinder124
+    100284: Cylinder125
+    100286: Cylinder126
+    100288: Cylinder127
+    100290: Cylinder128
+    100292: Cylinder129
+    100294: Cylinder130
+    100296: Cylinder131
+    100298: Cylinder134
+    100300: Cylinder135
+    100302: Cylinder136
+    100304: Cylinder137
+    100306: Cylinder140
+    100308: Cylinder142
+    100310: Cylinder143
+    100312: Cylinder144
+    100314: Cylinder145
+    100316: Default
+    100318: Default 1
+    100320: Default 10
+    100322: Default 11
+    100324: Default 12
+    100326: Default 13
+    100328: Default 14
+    100330: Default 15
+    100332: Default 16
+    100334: Default 17
+    100336: Default 18
+    100338: Default 19
+    100340: Default 2
+    100342: Default 20
+    100344: Default 21
+    100346: Default 22
+    100348: Default 23
+    100350: Default 24
+    100352: Default 25
+    100354: Default 26
+    100356: Default 27
+    100358: Default 28
+    100360: Default 29
+    100362: Default 3
+    100364: Default 30
+    100366: Default 31
+    100368: Default 32
+    100370: Default 33
+    100372: Default 34
+    100374: Default 35
+    100376: Default 36
+    100378: Default 37
+    100380: Default 38
+    100382: Default 39
+    100384: Default 4
+    100386: Default 40
+    100388: Default 41
+    100390: Default 42
+    100392: Default 43
+    100394: Default 44
+    100396: Default 45
+    100398: Default 46
+    100400: Default 47
+    100402: Default 48
+    100404: Default 49
+    100406: Default 5
+    100408: Default 50
+    100410: Default 51
+    100412: Default 52
+    100414: Default 53
+    100416: Default 54
+    100418: Default 55
+    100420: Default 56
+    100422: Default 57
+    100424: Default 58
+    100426: Default 59
+    100428: Default 6
+    100430: Default 60
+    100432: Default 61
+    100434: Default 7
+    100436: Default 8
+    100438: Default 9
+    100440: Default003
+    100442: Default006
+    100444: Default007
+    100446: DSPK_120K_268367-203.1
+    100448: DSPK_120K_268367-203.2
+    100450: DSPK_120K_268367-203.3
+    100452: DSPK_120K_268367-203.4
+    100454: Escalera 1
+    100456: Escalera 2
+    100458: Estructura subsuelo
+    100460: Group001
+    100462: HAcer en susbstance
+    100464: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.40
+    100466: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.40.1
+    100468: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.43
+    100470: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.43.1
+    100472: KIPP_KAHVA.1
+    100474: Line021
+    100476: Line039
+    100478: Line045
+    100480: Line052
+    100482: Line055
+    100484: Line057
+    100486: Line061
+    100488: Line062
+    100490: Line066
+    100492: Line068
+    100494: Line071
+    100496: NAUO1
+    100498: NAUO1 1
+    100500: NAUO1 2
+    100502: NAUO1 3
+    100504: Object013
+    100506: Object053
+    100508: Pared alta 01
+    100510: Pared alta 02
+    100512: Plane002
+    100514: Plane005
+    100516: Plane007
+    100518: Sector escalera atras
+    100520: Solid1
+    100522: Solid1 1
+    100524: Solid1 10
+    100526: Solid1 11
+    100528: Solid1 12
+    100530: Solid1 13
+    100532: Solid1 14
+    100534: Solid1 15
+    100536: Solid1 16
+    100538: Solid1 17
+    100540: Solid1 18
+    100542: Solid1 19
+    100544: Solid1 2
+    100546: Solid1 3
+    100548: Solid1 4
+    100550: Solid1 5
+    100552: Solid1 6
+    100554: Solid1 7
+    100556: Solid1 8
+    100558: Solid1 9
+    100560: Solid10
+    100562: Solid10 1
+    100564: Solid10 2
+    100566: Solid10 3
+    100568: Solid100
+    100570: Solid100 1
+    100572: Solid101
+    100574: Solid101 1
+    100576: Solid102
+    100578: Solid102 1
+    100580: Solid103
+    100582: Solid103 1
+    100584: Solid104
+    100586: Solid104 1
+    100588: Solid105
+    100590: Solid105 1
+    100592: Solid106
+    100594: Solid106 1
+    100596: Solid107
+    100598: Solid107 1
+    100600: Solid108
+    100602: Solid108 1
+    100604: Solid109
+    100606: Solid109 1
+    100608: Solid11
+    100610: Solid11 1
+    100612: Solid11 2
+    100614: Solid11 3
+    100616: Solid11 4
+    100618: Solid110
+    100620: Solid110 1
+    100622: Solid111
+    100624: Solid111 1
+    100626: Solid112
+    100628: Solid112 1
+    100630: Solid113
+    100632: Solid113 1
+    100634: Solid114
+    100636: Solid114 1
+    100638: Solid115
+    100640: Solid115 1
+    100642: Solid116
+    100644: Solid116 1
+    100646: Solid117
+    100648: Solid117 1
+    100650: Solid118
+    100652: Solid118 1
+    100654: Solid119
+    100656: Solid119 1
+    100658: Solid12
+    100660: Solid12 1
+    100662: Solid12 2
+    100664: Solid12 3
+    100666: Solid120
+    100668: Solid120 1
+    100670: Solid121
+    100672: Solid121 1
+    100674: Solid122
+    100676: Solid122 1
+    100678: Solid123
+    100680: Solid124
+    100682: Solid125
+    100684: Solid126
+    100686: Solid127
+    100688: Solid128
+    100690: Solid129
+    100692: Solid129 1
+    100694: Solid13
+    100696: Solid13 1
+    100698: Solid13 2
+    100700: Solid13 3
+    100702: Solid13 4
+    100704: Solid130
+    100706: Solid130 1
+    100708: Solid131
+    100710: Solid132
+    100712: Solid133
+    100714: Solid133 1
+    100716: Solid134
+    100718: Solid134 1
+    100720: Solid135
+    100722: Solid136
+    100724: Solid137
+    100726: Solid138
+    100728: Solid139
+    100730: Solid14
+    100732: Solid14 1
+    100734: Solid14 2
+    100736: Solid14 3
+    100738: Solid140
+    100740: Solid141
+    100742: Solid142
+    100744: Solid143
+    100746: Solid144
+    100748: Solid145
+    100750: Solid146
+    100752: Solid147
+    100754: Solid148
+    100756: Solid149
+    100758: Solid15
+    100760: Solid15 1
+    100762: Solid15 2
+    100764: Solid15 3
+    100766: Solid150
+    100768: Solid151
+    100770: Solid152
+    100772: Solid153
+    100774: Solid154
+    100776: Solid155
+    100778: Solid156
+    100780: Solid157
+    100782: Solid158
+    100784: Solid159
+    100786: Solid16
+    100788: Solid16 1
+    100790: Solid16 2
+    100792: Solid160
+    100794: Solid161
+    100796: Solid162
+    100798: Solid163
+    100800: Solid164
+    100802: Solid165
+    100804: Solid166
+    100806: Solid167
+    100808: Solid168
+    100810: Solid169
+    100812: Solid17
+    100814: Solid17 1
+    100816: Solid170
+    100818: Solid171
+    100820: Solid172
+    100822: Solid18
+    100824: Solid18 1
+    100826: Solid18 2
+    100828: Solid18 3
+    100830: Solid19
+    100832: Solid19 1
+    100834: Solid19 2
+    100836: Solid19 3
+    100838: Solid2
+    100840: Solid2 1
+    100842: Solid2 10
+    100844: Solid2 11
+    100846: Solid2 12
+    100848: Solid2 13
+    100850: Solid2 14
+    100852: Solid2 15
+    100854: Solid2 16
+    100856: Solid2 17
+    100858: Solid2 18
+    100860: Solid2 19
+    100862: Solid2 2
+    100864: Solid2 20
+    100866: Solid2 3
+    100868: Solid2 4
+    100870: Solid2 5
+    100872: Solid2 6
+    100874: Solid2 7
+    100876: Solid2 8
+    100878: Solid2 9
+    100880: Solid20
+    100882: Solid20 1
+    100884: Solid20 2
+    100886: Solid21
+    100888: Solid21 1
+    100890: Solid21 2
+    100892: Solid22
+    100894: Solid22 1
+    100896: Solid22 2
+    100898: Solid23
+    100900: Solid23 1
+    100902: Solid23 2
+    100904: Solid24
+    100906: Solid24 1
+    100908: Solid24 2
+    100910: Solid25
+    100912: Solid25 1
+    100914: Solid25 2
+    100916: Solid26
+    100918: Solid26 1
+    100920: Solid26 2
+    100922: Solid27
+    100924: Solid27 1
+    100926: Solid27 2
+    100928: Solid28
+    100930: Solid28 1
+    100932: Solid28 2
+    100934: Solid29
+    100936: Solid29 1
+    100938: Solid3
+    100940: Solid3 1
+    100942: Solid3 10
+    100944: Solid3 11
+    100946: Solid3 2
+    100948: Solid3 3
+    100950: Solid3 4
+    100952: Solid3 5
+    100954: Solid3 6
+    100956: Solid3 7
+    100958: Solid3 8
+    100960: Solid3 9
+    100962: Solid30
+    100964: Solid30 1
+    100966: Solid31
+    100968: Solid31 1
+    100970: Solid31 2
+    100972: Solid32
+    100974: Solid32 1
+    100976: Solid32 2
+    100978: Solid32 3
+    100980: Solid33
+    100982: Solid33 1
+    100984: Solid33 2
+    100986: Solid34
+    100988: Solid34 1
+    100990: Solid34 2
+    100992: Solid35
+    100994: Solid35 1
+    100996: Solid35 2
+    100998: Solid36
+    101000: Solid36 1
+    101002: Solid37
+    101004: Solid37 1
+    101006: Solid38
+    101008: Solid38 1
+    101010: Solid38 2
+    101012: Solid39
+    101014: Solid39 1
+    101016: Solid39 2
+    101018: Solid39 3
+    101020: Solid4
+    101022: Solid4 1
+    101024: Solid4 10
+    101026: Solid4 11
+    101028: Solid4 12
+    101030: Solid4 13
+    101032: Solid4 2
+    101034: Solid4 3
+    101036: Solid4 4
+    101038: Solid4 5
+    101040: Solid4 6
+    101042: Solid4 7
+    101044: Solid4 8
+    101046: Solid4 9
+    101048: Solid40
+    101050: Solid40 1
+    101052: Solid40 2
+    101054: Solid40 3
+    101056: Solid41
+    101058: Solid41 1
+    101060: Solid42
+    101062: Solid42 1
+    101064: Solid43
+    101066: Solid43 1
+    101068: Solid43 2
+    101070: Solid43 3
+    101072: Solid44
+    101074: Solid44 1
+    101076: Solid44 2
+    101078: Solid44 3
+    101080: Solid45
+    101082: Solid45 1
+    101084: Solid45 2
+    101086: Solid46
+    101088: Solid46 1
+    101090: Solid47
+    101092: Solid47 1
+    101094: Solid48
+    101096: Solid48 1
+    101098: Solid49
+    101100: Solid49 1
+    101102: Solid5
+    101104: Solid5 1
+    101106: Solid5 2
+    101108: Solid5 3
+    101110: Solid5 4
+    101112: Solid5 5
+    101114: Solid5 6
+    101116: Solid5 7
+    101118: Solid5 8
+    101120: Solid50
+    101122: Solid50 1
+    101124: Solid51
+    101126: Solid51 1
+    101128: Solid52
+    101130: Solid52 1
+    101132: Solid53
+    101134: Solid53 1
+    101136: Solid54
+    101138: Solid54 1
+    101140: Solid55
+    101142: Solid55 1
+    101144: Solid56
+    101146: Solid56 1
+    101148: Solid57
+    101150: Solid57 1
+    101152: Solid58
+    101154: Solid58 1
+    101156: Solid59
+    101158: Solid59 1
+    101160: Solid6
+    101162: Solid6 1
+    101164: Solid6 2
+    101166: Solid6 3
+    101168: Solid6 4
+    101170: Solid6 5
+    101172: Solid6 6
+    101174: Solid6 7
+    101176: Solid6 8
+    101178: Solid60
+    101180: Solid60 1
+    101182: Solid61
+    101184: Solid61 1
+    101186: Solid62
+    101188: Solid62 1
+    101190: Solid63
+    101192: Solid63 1
+    101194: Solid64
+    101196: Solid64 1
+    101198: Solid65
+    101200: Solid65 1
+    101202: Solid66
+    101204: Solid66 1
+    101206: Solid67
+    101208: Solid67 1
+    101210: Solid68
+    101212: Solid68 1
+    101214: Solid69
+    101216: Solid69 1
+    101218: Solid7
+    101220: Solid7 1
+    101222: Solid7 2
+    101224: Solid7 3
+    101226: Solid7 4
+    101228: Solid7 5
+    101230: Solid7 6
+    101232: Solid70
+    101234: Solid70 1
+    101236: Solid71
+    101238: Solid71 1
+    101240: Solid72
+    101242: Solid72 1
+    101244: Solid73
+    101246: Solid73 1
+    101248: Solid74
+    101250: Solid74 1
+    101252: Solid75
+    101254: Solid75 1
+    101256: Solid76
+    101258: Solid76 1
+    101260: Solid77
+    101262: Solid77 1
+    101264: Solid78
+    101266: Solid78 1
+    101268: Solid79
+    101270: Solid79 1
+    101272: Solid8
+    101274: Solid8 1
+    101276: Solid8 2
+    101278: Solid8 3
+    101280: Solid8 4
+    101282: Solid8 5
+    101284: Solid8 6
+    101286: Solid8 7
+    101288: Solid80
+    101290: Solid80 1
+    101292: Solid81
+    101294: Solid81 1
+    101296: Solid82
+    101298: Solid82 1
+    101300: Solid83
+    101302: Solid83 1
+    101304: Solid84
+    101306: Solid84 1
+    101308: Solid85
+    101310: Solid85 1
+    101312: Solid86
+    101314: Solid86 1
+    101316: Solid87
+    101318: Solid87 1
+    101320: Solid88
+    101322: Solid88 1
+    101324: Solid89
+    101326: Solid89 1
+    101328: Solid9
+    101330: Solid9 1
+    101332: Solid9 2
+    101334: Solid9 3
+    101336: Solid90
+    101338: Solid90 1
+    101340: Solid91
+    101342: Solid91 1
+    101344: Solid92
+    101346: Solid92 1
+    101348: Solid93
+    101350: Solid93 1
+    101352: Solid94
+    101354: Solid94 1
+    101356: Solid95
+    101358: Solid95 1
+    101360: Solid96
+    101362: Solid96 1
+    101364: Solid97
+    101366: Solid97 1
+    101368: Solid98
+    101370: Solid98 1
+    101372: Solid99
+    101374: Solid99 1
+    101376: Soporte cosa rara
+    101378: Soporte fierritos
+    101380: Soporte fierritos 1
+    101382: SS208386B_010-71-4501.1
+    101384: SS208386B_010-71-4504.1
+    101386: SS208386B_1
+    101388: SS208386B_4
+    101390: Suelo alto
+    101392: Suelo principal
+    101394: Sujecion tapa
+    101396: Tapa Valzone
+    101398: Tapas fondo
+    101400: Tapas frente
+    101402: TARTUNTALEVY 900x230x25
+    101404: Torus001
+    101406: VAL0007595.1
+    101408: VAL0007595.2
+    101410: VAL0007595.3
+    101412: VAL0007595.4
+    101414: VAL0010623.1
+    101416: VAL0010623.2
+    101418: VAL0010623.3
+    101420: VAL0010623.4
+    101422: VAL0064305_00
+    101424: VAL0300415.1
+    101426: VAL0300415.2
+    101428: VAL0300419.1
+    101430: VAL0300419.1 1
+    101432: VAL0300419.2
+    101434: VAL0300419.2 1
+    101436: VAL0300419.3
+    101438: VAL0300419.4
+    101440: VAL0300419.5
+    101442: VAL0300419.5 1
+    101444: VAL0300419.6
+    101446: VAL0303737.1
+    101448: VAL0303737.1 1
+    101450: VAL0303737.2
+    101452: VAL0303737.2 1
+    101454: VAL0303737.3
+    101456: VAL0303737.4
+    101458: VAL0303737.5
+    101460: VAL0303737.6
+    101462: VAL0306051
+    101464: VAL0306051 1
+    101466: VAL0306051.1
+    101468: VAL0306051.2
+    101470: VAL0306051.3
+    101472: VAL0306051.4
+    101474: VAL0306051.4 1
+    101476: //RootNode
+    101478: Vidrio
+    400000: ARPEX_6_140_1,625_42.1
+    400002: Baranda fondo
+    400004: baranda frente
+    400006: Barandas arriba
+    400008: Box005
+    400010: Box006
+    400012: Box007
+    400014: Box008
+    400016: Box044
+    400018: Box050
+    400020: Box074
+    400022: Box078
+    400024: Box081
+    400026: Box124
+    400028: Box153
+    400030: Box154
+    400032: Box159
+    400034: Box161
+    400036: Box162
+    400038: Box163
+    400040: Box189
+    400042: Box190
+    400044: Box268
+    400046: Box272
+    400048: Box289
+    400050: Box299
+    400052: Box310
+    400054: Box313
+    400056: Box327
+    400058: Box329
+    400060: Box340
+    400062: Box341
+    400064: Box345
+    400066: Box357
+    400068: Box360
+    400070: Box375
+    400072: Box391
+    400074: Box396
+    400076: Box402
+    400078: Box403
+    400080: Box410
+    400082: Box411
+    400084: Box412
+    400086: Box414
+    400088: Box416
+    400090: Box418
+    400092: Caja rara abajo
+    400094: CAL0007344_00
+    400096: CAL0007344_00.1
+    400098: CAL0007345_00
+    400100: CAL0007345_00.1
+    400102: CAL0007346_00
+    400104: CAL0007346_00.1
+    400106: CAL0007347_00
+    400108: CAL0007347_00.1
+    400110: CAL0007354.1
+    400112: CAL1038381_SA0.1
+    400114: CAL1038381_SA99.1
+    400116: CAL1038546_00
+    400118: CAL1038546_00.1
+    400120: CAL1038547_00
+    400122: CAL1038547_00.1
+    400124: CAL1038549_00.1
+    400126: CAL1038550_00.1
+    400128: CAL1038551_00
+    400130: CAL1038551_00.1
+    400132: CAL1038561_00
+    400134: CAL1038561_00.1
+    400136: CAL1038985_00
+    400138: CAL1038985_00.1
+    400140: CAL1039003_SA0.1
+    400142: CAL1039005_SA0.1
+    400144: CAL1039008_SA0.1
+    400146: CAL1039022.1
+    400148: CAL1039022_01.1
+    400150: CAL1039022_02.1
+    400152: CAL1039034.1
+    400154: CAL1039034_01.1
+    400156: CAL1039034_02.1
+    400158: CAL1039034_03.1
+    400160: CAL1039034_04.1
+    400162: CAL1039121_SA01.1
+    400164: CAL1039123_00
+    400166: CAL1039123_00 1
+    400168: CAL2019805_00
+    400170: CAL2019805_00.1
+    400172: CAL2019847_00
+    400174: CAL2019847_00.1
+    400176: CAL2019850.1
+    400178: CAL2019850.1 1
+    400180: CAL3079100_00
+    400182: CAL3079100_00 1
+    400184: CAL3079100_00 2
+    400186: CAL3079100_00 3
+    400188: CAL3079100_00.1
+    400190: CAL3079100_00.1 1
+    400192: CAL3079100_00.2
+    400194: CAL3079100_00.2 1
+    400196: CAL3079196_00.1
+    400198: CAL3079197
+    400200: CAL3079197 1
+    400202: CAL3079199
+    400204: CAL3079199 1
+    400206: CAL3079200
+    400208: CAL3079200 1
+    400210: CAL3079200.1
+    400212: CAL3079200.2
+    400214: CAL3079201
+    400216: CAL3079201 1
+    400218: CAL3079201.1
+    400220: CAL3079201.2
+    400222: CAL5001228_00.1
+    400224: CAL5001228_SA1.1
+    400226: CAL5001228_SA2.1
+    400228: CAL5001228_SA3.1
+    400230: Caldera
+    400232: CALZ003112_00
+    400234: CALZ003112_00.1
+    400236: "Ca\xF1erias abajo"
+    400238: COA3104253_00.1
+    400240: COA3104253_00.1 1
+    400242: COA3104253_00.2
+    400244: COA3104253_00.2 1
+    400246: COA3104253_00.3
+    400248: COA3104253_00.4
+    400250: COA8001836.1
+    400252: Compuerta
+    400254: Cosa Rara abajo
+    400256: Cylinder006
+    400258: Cylinder007
+    400260: Cylinder011
+    400262: Cylinder022
+    400264: Cylinder023
+    400266: Cylinder029
+    400268: Cylinder070
+    400270: Cylinder095
+    400272: Cylinder098
+    400274: Cylinder101
+    400276: Cylinder112
+    400278: Cylinder122
+    400280: Cylinder123
+    400282: Cylinder124
+    400284: Cylinder125
+    400286: Cylinder126
+    400288: Cylinder127
+    400290: Cylinder128
+    400292: Cylinder129
+    400294: Cylinder130
+    400296: Cylinder131
+    400298: Cylinder134
+    400300: Cylinder135
+    400302: Cylinder136
+    400304: Cylinder137
+    400306: Cylinder140
+    400308: Cylinder142
+    400310: Cylinder143
+    400312: Cylinder144
+    400314: Cylinder145
+    400316: Default
+    400318: Default 1
+    400320: Default 10
+    400322: Default 11
+    400324: Default 12
+    400326: Default 13
+    400328: Default 14
+    400330: Default 15
+    400332: Default 16
+    400334: Default 17
+    400336: Default 18
+    400338: Default 19
+    400340: Default 2
+    400342: Default 20
+    400344: Default 21
+    400346: Default 22
+    400348: Default 23
+    400350: Default 24
+    400352: Default 25
+    400354: Default 26
+    400356: Default 27
+    400358: Default 28
+    400360: Default 29
+    400362: Default 3
+    400364: Default 30
+    400366: Default 31
+    400368: Default 32
+    400370: Default 33
+    400372: Default 34
+    400374: Default 35
+    400376: Default 36
+    400378: Default 37
+    400380: Default 38
+    400382: Default 39
+    400384: Default 4
+    400386: Default 40
+    400388: Default 41
+    400390: Default 42
+    400392: Default 43
+    400394: Default 44
+    400396: Default 45
+    400398: Default 46
+    400400: Default 47
+    400402: Default 48
+    400404: Default 49
+    400406: Default 5
+    400408: Default 50
+    400410: Default 51
+    400412: Default 52
+    400414: Default 53
+    400416: Default 54
+    400418: Default 55
+    400420: Default 56
+    400422: Default 57
+    400424: Default 58
+    400426: Default 59
+    400428: Default 6
+    400430: Default 60
+    400432: Default 61
+    400434: Default 7
+    400436: Default 8
+    400438: Default 9
+    400440: Default003
+    400442: Default006
+    400444: Default007
+    400446: DSPK_120K_268367-203.1
+    400448: DSPK_120K_268367-203.2
+    400450: DSPK_120K_268367-203.3
+    400452: DSPK_120K_268367-203.4
+    400454: Escalera 1
+    400456: Escalera 2
+    400458: Estructura subsuelo
+    400460: Group001
+    400462: HAcer en susbstance
+    400464: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.40
+    400466: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.40.1
+    400468: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.43
+    400470: K10-0303365-03a_GUIDE_ROLL_KRAFFT_WALZEN_POS10.43.1
+    400472: KIPP_KAHVA.1
+    400474: Line021
+    400476: Line039
+    400478: Line045
+    400480: Line052
+    400482: Line055
+    400484: Line057
+    400486: Line061
+    400488: Line062
+    400490: Line066
+    400492: Line068
+    400494: Line071
+    400496: NAUO1
+    400498: NAUO1 1
+    400500: NAUO1 2
+    400502: NAUO1 3
+    400504: Object013
+    400506: Object053
+    400508: Pared alta 01
+    400510: Pared alta 02
+    400512: Plane002
+    400514: Plane005
+    400516: Plane007
+    400518: Sector escalera atras
+    400520: Solid1
+    400522: Solid1 1
+    400524: Solid1 10
+    400526: Solid1 11
+    400528: Solid1 12
+    400530: Solid1 13
+    400532: Solid1 14
+    400534: Solid1 15
+    400536: Solid1 16
+    400538: Solid1 17
+    400540: Solid1 18
+    400542: Solid1 19
+    400544: Solid1 2
+    400546: Solid1 3
+    400548: Solid1 4
+    400550: Solid1 5
+    400552: Solid1 6
+    400554: Solid1 7
+    400556: Solid1 8
+    400558: Solid1 9
+    400560: Solid10
+    400562: Solid10 1
+    400564: Solid10 2
+    400566: Solid10 3
+    400568: Solid100
+    400570: Solid100 1
+    400572: Solid101
+    400574: Solid101 1
+    400576: Solid102
+    400578: Solid102 1
+    400580: Solid103
+    400582: Solid103 1
+    400584: Solid104
+    400586: Solid104 1
+    400588: Solid105
+    400590: Solid105 1
+    400592: Solid106
+    400594: Solid106 1
+    400596: Solid107
+    400598: Solid107 1
+    400600: Solid108
+    400602: Solid108 1
+    400604: Solid109
+    400606: Solid109 1
+    400608: Solid11
+    400610: Solid11 1
+    400612: Solid11 2
+    400614: Solid11 3
+    400616: Solid11 4
+    400618: Solid110
+    400620: Solid110 1
+    400622: Solid111
+    400624: Solid111 1
+    400626: Solid112
+    400628: Solid112 1
+    400630: Solid113
+    400632: Solid113 1
+    400634: Solid114
+    400636: Solid114 1
+    400638: Solid115
+    400640: Solid115 1
+    400642: Solid116
+    400644: Solid116 1
+    400646: Solid117
+    400648: Solid117 1
+    400650: Solid118
+    400652: Solid118 1
+    400654: Solid119
+    400656: Solid119 1
+    400658: Solid12
+    400660: Solid12 1
+    400662: Solid12 2
+    400664: Solid12 3
+    400666: Solid120
+    400668: Solid120 1
+    400670: Solid121
+    400672: Solid121 1
+    400674: Solid122
+    400676: Solid122 1
+    400678: Solid123
+    400680: Solid124
+    400682: Solid125
+    400684: Solid126
+    400686: Solid127
+    400688: Solid128
+    400690: Solid129
+    400692: Solid129 1
+    400694: Solid13
+    400696: Solid13 1
+    400698: Solid13 2
+    400700: Solid13 3
+    400702: Solid13 4
+    400704: Solid130
+    400706: Solid130 1
+    400708: Solid131
+    400710: Solid132
+    400712: Solid133
+    400714: Solid133 1
+    400716: Solid134
+    400718: Solid134 1
+    400720: Solid135
+    400722: Solid136
+    400724: Solid137
+    400726: Solid138
+    400728: Solid139
+    400730: Solid14
+    400732: Solid14 1
+    400734: Solid14 2
+    400736: Solid14 3
+    400738: Solid140
+    400740: Solid141
+    400742: Solid142
+    400744: Solid143
+    400746: Solid144
+    400748: Solid145
+    400750: Solid146
+    400752: Solid147
+    400754: Solid148
+    400756: Solid149
+    400758: Solid15
+    400760: Solid15 1
+    400762: Solid15 2
+    400764: Solid15 3
+    400766: Solid150
+    400768: Solid151
+    400770: Solid152
+    400772: Solid153
+    400774: Solid154
+    400776: Solid155
+    400778: Solid156
+    400780: Solid157
+    400782: Solid158
+    400784: Solid159
+    400786: Solid16
+    400788: Solid16 1
+    400790: Solid16 2
+    400792: Solid160
+    400794: Solid161
+    400796: Solid162
+    400798: Solid163
+    400800: Solid164
+    400802: Solid165
+    400804: Solid166
+    400806: Solid167
+    400808: Solid168
+    400810: Solid169
+    400812: Solid17
+    400814: Solid17 1
+    400816: Solid170
+    400818: Solid171
+    400820: Solid172
+    400822: Solid18
+    400824: Solid18 1
+    400826: Solid18 2
+    400828: Solid18 3
+    400830: Solid19
+    400832: Solid19 1
+    400834: Solid19 2
+    400836: Solid19 3
+    400838: Solid2
+    400840: Solid2 1
+    400842: Solid2 10
+    400844: Solid2 11
+    400846: Solid2 12
+    400848: Solid2 13
+    400850: Solid2 14
+    400852: Solid2 15
+    400854: Solid2 16
+    400856: Solid2 17
+    400858: Solid2 18
+    400860: Solid2 19
+    400862: Solid2 2
+    400864: Solid2 20
+    400866: Solid2 3
+    400868: Solid2 4
+    400870: Solid2 5
+    400872: Solid2 6
+    400874: Solid2 7
+    400876: Solid2 8
+    400878: Solid2 9
+    400880: Solid20
+    400882: Solid20 1
+    400884: Solid20 2
+    400886: Solid21
+    400888: Solid21 1
+    400890: Solid21 2
+    400892: Solid22
+    400894: Solid22 1
+    400896: Solid22 2
+    400898: Solid23
+    400900: Solid23 1
+    400902: Solid23 2
+    400904: Solid24
+    400906: Solid24 1
+    400908: Solid24 2
+    400910: Solid25
+    400912: Solid25 1
+    400914: Solid25 2
+    400916: Solid26
+    400918: Solid26 1
+    400920: Solid26 2
+    400922: Solid27
+    400924: Solid27 1
+    400926: Solid27 2
+    400928: Solid28
+    400930: Solid28 1
+    400932: Solid28 2
+    400934: Solid29
+    400936: Solid29 1
+    400938: Solid3
+    400940: Solid3 1
+    400942: Solid3 10
+    400944: Solid3 11
+    400946: Solid3 2
+    400948: Solid3 3
+    400950: Solid3 4
+    400952: Solid3 5
+    400954: Solid3 6
+    400956: Solid3 7
+    400958: Solid3 8
+    400960: Solid3 9
+    400962: Solid30
+    400964: Solid30 1
+    400966: Solid31
+    400968: Solid31 1
+    400970: Solid31 2
+    400972: Solid32
+    400974: Solid32 1
+    400976: Solid32 2
+    400978: Solid32 3
+    400980: Solid33
+    400982: Solid33 1
+    400984: Solid33 2
+    400986: Solid34
+    400988: Solid34 1
+    400990: Solid34 2
+    400992: Solid35
+    400994: Solid35 1
+    400996: Solid35 2
+    400998: Solid36
+    401000: Solid36 1
+    401002: Solid37
+    401004: Solid37 1
+    401006: Solid38
+    401008: Solid38 1
+    401010: Solid38 2
+    401012: Solid39
+    401014: Solid39 1
+    401016: Solid39 2
+    401018: Solid39 3
+    401020: Solid4
+    401022: Solid4 1
+    401024: Solid4 10
+    401026: Solid4 11
+    401028: Solid4 12
+    401030: Solid4 13
+    401032: Solid4 2
+    401034: Solid4 3
+    401036: Solid4 4
+    401038: Solid4 5
+    401040: Solid4 6
+    401042: Solid4 7
+    401044: Solid4 8
+    401046: Solid4 9
+    401048: Solid40
+    401050: Solid40 1
+    401052: Solid40 2
+    401054: Solid40 3
+    401056: Solid41
+    401058: Solid41 1
+    401060: Solid42
+    401062: Solid42 1
+    401064: Solid43
+    401066: Solid43 1
+    401068: Solid43 2
+    401070: Solid43 3
+    401072: Solid44
+    401074: Solid44 1
+    401076: Solid44 2
+    401078: Solid44 3
+    401080: Solid45
+    401082: Solid45 1
+    401084: Solid45 2
+    401086: Solid46
+    401088: Solid46 1
+    401090: Solid47
+    401092: Solid47 1
+    401094: Solid48
+    401096: Solid48 1
+    401098: Solid49
+    401100: Solid49 1
+    401102: Solid5
+    401104: Solid5 1
+    401106: Solid5 2
+    401108: Solid5 3
+    401110: Solid5 4
+    401112: Solid5 5
+    401114: Solid5 6
+    401116: Solid5 7
+    401118: Solid5 8
+    401120: Solid50
+    401122: Solid50 1
+    401124: Solid51
+    401126: Solid51 1
+    401128: Solid52
+    401130: Solid52 1
+    401132: Solid53
+    401134: Solid53 1
+    401136: Solid54
+    401138: Solid54 1
+    401140: Solid55
+    401142: Solid55 1
+    401144: Solid56
+    401146: Solid56 1
+    401148: Solid57
+    401150: Solid57 1
+    401152: Solid58
+    401154: Solid58 1
+    401156: Solid59
+    401158: Solid59 1
+    401160: Solid6
+    401162: Solid6 1
+    401164: Solid6 2
+    401166: Solid6 3
+    401168: Solid6 4
+    401170: Solid6 5
+    401172: Solid6 6
+    401174: Solid6 7
+    401176: Solid6 8
+    401178: Solid60
+    401180: Solid60 1
+    401182: Solid61
+    401184: Solid61 1
+    401186: Solid62
+    401188: Solid62 1
+    401190: Solid63
+    401192: Solid63 1
+    401194: Solid64
+    401196: Solid64 1
+    401198: Solid65
+    401200: Solid65 1
+    401202: Solid66
+    401204: Solid66 1
+    401206: Solid67
+    401208: Solid67 1
+    401210: Solid68
+    401212: Solid68 1
+    401214: Solid69
+    401216: Solid69 1
+    401218: Solid7
+    401220: Solid7 1
+    401222: Solid7 2
+    401224: Solid7 3
+    401226: Solid7 4
+    401228: Solid7 5
+    401230: Solid7 6
+    401232: Solid70
+    401234: Solid70 1
+    401236: Solid71
+    401238: Solid71 1
+    401240: Solid72
+    401242: Solid72 1
+    401244: Solid73
+    401246: Solid73 1
+    401248: Solid74
+    401250: Solid74 1
+    401252: Solid75
+    401254: Solid75 1
+    401256: Solid76
+    401258: Solid76 1
+    401260: Solid77
+    401262: Solid77 1
+    401264: Solid78
+    401266: Solid78 1
+    401268: Solid79
+    401270: Solid79 1
+    401272: Solid8
+    401274: Solid8 1
+    401276: Solid8 2
+    401278: Solid8 3
+    401280: Solid8 4
+    401282: Solid8 5
+    401284: Solid8 6
+    401286: Solid8 7
+    401288: Solid80
+    401290: Solid80 1
+    401292: Solid81
+    401294: Solid81 1
+    401296: Solid82
+    401298: Solid82 1
+    401300: Solid83
+    401302: Solid83 1
+    401304: Solid84
+    401306: Solid84 1
+    401308: Solid85
+    401310: Solid85 1
+    401312: Solid86
+    401314: Solid86 1
+    401316: Solid87
+    401318: Solid87 1
+    401320: Solid88
+    401322: Solid88 1
+    401324: Solid89
+    401326: Solid89 1
+    401328: Solid9
+    401330: Solid9 1
+    401332: Solid9 2
+    401334: Solid9 3
+    401336: Solid90
+    401338: Solid90 1
+    401340: Solid91
+    401342: Solid91 1
+    401344: Solid92
+    401346: Solid92 1
+    401348: Solid93
+    401350: Solid93 1
+    401352: Solid94
+    401354: Solid94 1
+    401356: Solid95
+    401358: Solid95 1
+    401360: Solid96
+    401362: Solid96 1
+    401364: Solid97
+    401366: Solid97 1
+    401368: Solid98
+    401370: Solid98 1
+    401372: Solid99
+    401374: Solid99 1
+    401376: Soporte cosa rara
+    401378: Soporte fierritos
+    401380: Soporte fierritos 1
+    401382: SS208386B_010-71-4501.1
+    401384: SS208386B_010-71-4504.1
+    401386: SS208386B_1
+    401388: SS208386B_4
+    401390: Suelo alto
+    401392: Suelo principal
+    401394: Sujecion tapa
+    401396: Tapa Valzone
+    401398: Tapas fondo
+    401400: Tapas frente
+    401402: TARTUNTALEVY 900x230x25
+    401404: Torus001
+    401406: VAL0007595.1
+    401408: VAL0007595.2
+    401410: VAL0007595.3
+    401412: VAL0007595.4
+    401414: VAL0010623.1
+    401416: VAL0010623.2
+    401418: VAL0010623.3
+    401420: VAL0010623.4
+    401422: VAL0064305_00
+    401424: VAL0300415.1
+    401426: VAL0300415.2
+    401428: VAL0300419.1
+    401430: VAL0300419.1 1
+    401432: VAL0300419.2
+    401434: VAL0300419.2 1
+    401436: VAL0300419.3
+    401438: VAL0300419.4
+    401440: VAL0300419.5
+    401442: VAL0300419.5 1
+    401444: VAL0300419.6
+    401446: VAL0303737.1
+    401448: VAL0303737.1 1
+    401450: VAL0303737.2
+    401452: VAL0303737.2 1
+    401454: VAL0303737.3
+    401456: VAL0303737.4
+    401458: VAL0303737.5
+    401460: VAL0303737.6
+    401462: VAL0306051
+    401464: VAL0306051 1
+    401466: VAL0306051.1
+    401468: VAL0306051.2
+    401470: VAL0306051.3
+    401472: VAL0306051.4
+    401474: VAL0306051.4 1
+    401476: //RootNode
+    401478: Vidrio
+    2300000: Baranda fondo
+    2300002: baranda frente
+    2300004: Barandas arriba
+    2300006: Box005
+    2300008: Box006
+    2300010: Box007
+    2300012: Box008
+    2300014: Box044
+    2300016: Box050
+    2300018: Box074
+    2300020: Box078
+    2300022: Box081
+    2300024: Box124
+    2300026: Box153
+    2300028: Box154
+    2300030: Box159
+    2300032: Box161
+    2300034: Box162
+    2300036: Box163
+    2300038: Box189
+    2300040: Box190
+    2300042: Box268
+    2300044: Box272
+    2300046: Box289
+    2300048: Box299
+    2300050: Box310
+    2300052: Box313
+    2300054: Box329
+    2300056: Box340
+    2300058: Box341
+    2300060: Box345
+    2300062: Box357
+    2300064: Box360
+    2300066: Box375
+    2300068: Box391
+    2300070: Box396
+    2300072: Box402
+    2300074: Box403
+    2300076: Box410
+    2300078: Box411
+    2300080: Box412
+    2300082: Box414
+    2300084: Box416
+    2300086: Box418
+    2300088: Caja rara abajo
+    2300090: Caldera
+    2300092: "Ca\xF1erias abajo"
+    2300094: Compuerta
+    2300096: Cosa Rara abajo
+    2300098: Cylinder006
+    2300100: Cylinder007
+    2300102: Cylinder011
+    2300104: Cylinder022
+    2300106: Cylinder023
+    2300108: Cylinder029
+    2300110: Cylinder070
+    2300112: Cylinder095
+    2300114: Cylinder098
+    2300116: Cylinder101
+    2300118: Cylinder112
+    2300120: Cylinder122
+    2300122: Cylinder123
+    2300124: Cylinder124
+    2300126: Cylinder125
+    2300128: Cylinder126
+    2300130: Cylinder127
+    2300132: Cylinder128
+    2300134: Cylinder129
+    2300136: Cylinder130
+    2300138: Cylinder131
+    2300140: Cylinder134
+    2300142: Cylinder135
+    2300144: Cylinder136
+    2300146: Cylinder137
+    2300148: Cylinder140
+    2300150: Cylinder142
+    2300152: Cylinder143
+    2300154: Cylinder144
+    2300156: Cylinder145
+    2300158: Default
+    2300160: Default 1
+    2300162: Default 10
+    2300164: Default 11
+    2300166: Default 12
+    2300168: Default 13
+    2300170: Default 14
+    2300172: Default 15
+    2300174: Default 16
+    2300176: Default 17
+    2300178: Default 18
+    2300180: Default 19
+    2300182: Default 2
+    2300184: Default 20
+    2300186: Default 21
+    2300188: Default 22
+    2300190: Default 23
+    2300192: Default 24
+    2300194: Default 25
+    2300196: Default 26
+    2300198: Default 27
+    2300200: Default 28
+    2300202: Default 29
+    2300204: Default 3
+    2300206: Default 30
+    2300208: Default 31
+    2300210: Default 32
+    2300212: Default 33
+    2300214: Default 34
+    2300216: Default 35
+    2300218: Default 36
+    2300220: Default 37
+    2300222: Default 38
+    2300224: Default 39
+    2300226: Default 4
+    2300228: Default 40
+    2300230: Default 41
+    2300232: Default 42
+    2300234: Default 43
+    2300236: Default 44
+    2300238: Default 45
+    2300240: Default 46
+    2300242: Default 47
+    2300244: Default 48
+    2300246: Default 49
+    2300248: Default 5
+    2300250: Default 50
+    2300252: Default 51
+    2300254: Default 52
+    2300256: Default 53
+    2300258: Default 54
+    2300260: Default 55
+    2300262: Default 56
+    2300264: Default 57
+    2300266: Default 58
+    2300268: Default 59
+    2300270: Default 6
+    2300272: Default 60
+    2300274: Default 61
+    2300276: Default 7
+    2300278: Default 8
+    2300280: Default 9
+    2300282: Default003
+    2300284: Default006
+    2300286: Default007
+    2300288: Escalera 1
+    2300290: Escalera 2
+    2300292: Estructura subsuelo
+    2300294: Line021
+    2300296: Line039
+    2300298: Line045
+    2300300: Line052
+    2300302: Line055
+    2300304: Line057
+    2300306: Line061
+    2300308: Line062
+    2300310: Line066
+    2300312: Line068
+    2300314: Line071
+    2300316: Object013
+    2300318: Object053
+    2300320: Pared alta 01
+    2300322: Pared alta 02
+    2300324: Plane002
+    2300326: Plane005
+    2300328: Plane007
+    2300330: Sector escalera atras
+    2300332: Soporte cosa rara
+    2300334: Soporte fierritos
+    2300336: Soporte fierritos 1
+    2300338: Suelo alto
+    2300340: Suelo principal
+    2300342: Sujecion tapa
+    2300344: Tapa Valzone
+    2300346: Tapas fondo
+    2300348: Tapas frente
+    2300350: TARTUNTALEVY 900x230x25
+    2300352: Torus001
+    2300354: VAL0064305_00
+    2300356: VAL0306051
+    2300358: VAL0306051 1
+    2300360: Vidrio
+    3300000: Baranda fondo
+    3300002: baranda frente
+    3300004: Barandas arriba
+    3300006: Box005
+    3300008: Box006
+    3300010: Box007
+    3300012: Box008
+    3300014: Box044
+    3300016: Box050
+    3300018: Box074
+    3300020: Box078
+    3300022: Box081
+    3300024: Box124
+    3300026: Box153
+    3300028: Box154
+    3300030: Box159
+    3300032: Box161
+    3300034: Box162
+    3300036: Box163
+    3300038: Box189
+    3300040: Box190
+    3300042: Box268
+    3300044: Box272
+    3300046: Box289
+    3300048: Box299
+    3300050: Box310
+    3300052: Box313
+    3300054: Box329
+    3300056: Box340
+    3300058: Box341
+    3300060: Box345
+    3300062: Box357
+    3300064: Box360
+    3300066: Box375
+    3300068: Box391
+    3300070: Box396
+    3300072: Box402
+    3300074: Box403
+    3300076: Box410
+    3300078: Box411
+    3300080: Box412
+    3300082: Box414
+    3300084: Box416
+    3300086: Box418
+    3300088: Caja rara abajo
+    3300090: Caldera
+    3300092: "Ca\xF1erias abajo"
+    3300094: Compuerta
+    3300096: Cosa Rara abajo
+    3300098: Cylinder006
+    3300100: Cylinder007
+    3300102: Cylinder011
+    3300104: Cylinder022
+    3300106: Cylinder023
+    3300108: Cylinder029
+    3300110: Cylinder070
+    3300112: Cylinder095
+    3300114: Cylinder098
+    3300116: Cylinder101
+    3300118: Cylinder112
+    3300120: Cylinder122
+    3300122: Cylinder123
+    3300124: Cylinder124
+    3300126: Cylinder125
+    3300128: Cylinder126
+    3300130: Cylinder127
+    3300132: Cylinder128
+    3300134: Cylinder129
+    3300136: Cylinder130
+    3300138: Cylinder131
+    3300140: Cylinder134
+    3300142: Cylinder135
+    3300144: Cylinder136
+    3300146: Cylinder137
+    3300148: Cylinder140
+    3300150: Cylinder142
+    3300152: Cylinder143
+    3300154: Cylinder144
+    3300156: Cylinder145
+    3300158: Default
+    3300160: Default 1
+    3300162: Default 10
+    3300164: Default 11
+    3300166: Default 12
+    3300168: Default 13
+    3300170: Default 14
+    3300172: Default 15
+    3300174: Default 16
+    3300176: Default 17
+    3300178: Default 18
+    3300180: Default 19
+    3300182: Default 2
+    3300184: Default 20
+    3300186: Default 21
+    3300188: Default 22
+    3300190: Default 23
+    3300192: Default 24
+    3300194: Default 25
+    3300196: Default 26
+    3300198: Default 27
+    3300200: Default 28
+    3300202: Default 29
+    3300204: Default 3
+    3300206: Default 30
+    3300208: Default 31
+    3300210: Default 32
+    3300212: Default 33
+    3300214: Default 34
+    3300216: Default 35
+    3300218: Default 36
+    3300220: Default 37
+    3300222: Default 38
+    3300224: Default 39
+    3300226: Default 4
+    3300228: Default 40
+    3300230: Default 41
+    3300232: Default 42
+    3300234: Default 43
+    3300236: Default 44
+    3300238: Default 45
+    3300240: Default 46
+    3300242: Default 47
+    3300244: Default 48
+    3300246: Default 49
+    3300248: Default 5
+    3300250: Default 50
+    3300252: Default 51
+    3300254: Default 52
+    3300256: Default 53
+    3300258: Default 54
+    3300260: Default 55
+    3300262: Default 56
+    3300264: Default 57
+    3300266: Default 58
+    3300268: Default 59
+    3300270: Default 6
+    3300272: Default 60
+    3300274: Default 61
+    3300276: Default 7
+    3300278: Default 8
+    3300280: Default 9
+    3300282: Default003
+    3300284: Default006
+    3300286: Default007
+    3300288: Escalera 1
+    3300290: Escalera 2
+    3300292: Estructura subsuelo
+    3300294: Line021
+    3300296: Line039
+    3300298: Line045
+    3300300: Line052
+    3300302: Line055
+    3300304: Line057
+    3300306: Line061
+    3300308: Line062
+    3300310: Line066
+    3300312: Line068
+    3300314: Line071
+    3300316: Object013
+    3300318: Object053
+    3300320: Pared alta 01
+    3300322: Pared alta 02
+    3300324: Plane002
+    3300326: Plane005
+    3300328: Plane007
+    3300330: Sector escalera atras
+    3300332: Soporte cosa rara
+    3300334: Soporte fierritos
+    3300336: Soporte fierritos 1
+    3300338: Suelo alto
+    3300340: Suelo principal
+    3300342: Sujecion tapa
+    3300344: Tapa Valzone
+    3300346: Tapas fondo
+    3300348: Tapas frente
+    3300350: TARTUNTALEVY 900x230x25
+    3300352: Torus001
+    3300354: VAL0064305_00
+    3300356: VAL0306051
+    3300358: VAL0306051 1
+    3300360: Vidrio
+    4300000: Compuerta
+    4300002: Vidrio
+    4300004: Box007
+    4300006: Cylinder022
+    4300008: Tapas frente
+    4300010: Box074
+    4300012: Object013
+    4300014: Cylinder029
+    4300016: Cylinder007
+    4300018: Cylinder011
+    4300020: Default
+    4300022: Default
+    4300024: Default
+    4300026: Default
+    4300028: Default
+    4300030: Default
+    4300032: Default
+    4300034: Pared alta 01
+    4300036: Sector escalera atras
+    4300038: Default
+    4300040: Estructura subsuelo
+    4300042: Default006
+    4300044: Default
+    4300046: Default
+    4300048: Default
+    4300050: Default
+    4300052: VAL0306051
+    4300054: VAL0306051
+    4300056: Pared alta 02
+    4300058: Escalera 1
+    4300060: Escalera 2
+    4300062: Line021
+    4300064: Box050
+    4300066: Barandas arriba
+    4300068: Default
+    4300070: Default
+    4300072: Default
+    4300074: Default
+    4300076: Default
+    4300078: Box124
+    4300080: Cosa Rara abajo
+    4300082: Suelo principal
+    4300084: Soporte cosa rara
+    4300086: Box044
+    4300088: Box153
+    4300090: Box154
+    4300092: Soporte fierritos
+    4300094: Soporte fierritos
+    4300096: Box159
+    4300098: Box161
+    4300100: Box162
+    4300102: Box163
+    4300104: Box081
+    4300106: Line039
+    4300108: Default003
+    4300110: Default
+    4300112: Default
+    4300114: Default
+    4300116: Default
+    4300118: Default
+    4300120: Torus001
+    4300122: Box189
+    4300124: Box190
+    4300126: Plane002
+    4300128: Plane005
+    4300130: Plane007
+    4300132: Default
+    4300134: TARTUNTALEVY 900x230x25
+    4300136: Default
+    4300138: Default
+    4300140: Default
+    4300142: Line045
+    4300144: Cylinder070
+    4300146: Sujecion tapa
+    4300148: baranda frente
+    4300150: Baranda fondo
+    4300152: Tapa Valzone
+    4300154: Tapas fondo
+    4300156: Cylinder023
+    4300158: Cylinder095
+    4300160: Object053
+    4300162: Cylinder098
+    4300164: Box268
+    4300166: Box272
+    4300168: Cylinder101
+    4300170: Box289
+    4300172: Cylinder112
+    4300174: Box299
+    4300176: Box310
+    4300178: Box313
+    4300180: Default
+    4300182: Box329
+    4300184: Line052
+    4300186: Box340
+    4300188: Box341
+    4300190: Box345
+    4300192: Suelo alto
+    4300194: Line057
+    4300196: Box357
+    4300198: Box360
+    4300200: Cylinder122
+    4300202: Box375
+    4300204: Cylinder123
+    4300206: Cylinder124
+    4300208: Cylinder125
+    4300210: Cylinder126
+    4300212: Cylinder127
+    4300214: Cylinder128
+    4300216: Box391
+    4300218: Cylinder129
+    4300220: Cylinder130
+    4300222: Cylinder131
+    4300224: Box396
+    4300226: Box402
+    4300228: VAL0064305_00
+    4300230: Default
+    4300232: Default
+    4300234: Default
+    4300236: Default
+    4300238: Box403
+    4300240: Default
+    4300242: Default
+    4300244: Default
+    4300246: Default
+    4300248: Default
+    4300250: Default
+    4300252: Default
+    4300254: Default
+    4300256: Default
+    4300258: Default
+    4300260: Default
+    4300262: Default
+    4300264: Default
+    4300266: Default
+    4300268: Default
+    4300270: Default
+    4300272: Default
+    4300274: Default
+    4300276: Default
+    4300278: Default
+    4300280: Default
+    4300282: Default
+    4300284: Default
+    4300286: Default
+    4300288: Box005
+    4300290: Box006
+    4300292: Cylinder134
+    4300294: Cylinder135
+    4300296: Cylinder136
+    4300298: Box008
+    4300300: Cylinder137
+    4300302: Cylinder006
+    4300304: Box410
+    4300306: Box411
+    4300308: Box412
+    4300310: Box414
+    4300312: Cylinder140
+    4300314: Box416
+    4300316: Cylinder142
+    4300318: Line055
+    4300320: Line061
+    4300322: Line062
+    4300324: Box418
+    4300326: Line066
+    4300328: Line068
+    4300330: Cylinder143
+    4300332: Cylinder144
+    4300334: Line071
+    4300336: Cylinder145
+    4300338: Box078
+    4300340: Default007
+    4300342: Caldera
+    4300344: "Ca\xF1erias abajo"
+    4300346: Caja rara abajo
+    4300348: Default
+    4300350: Default
+    4300352: Default
+    4300354: Default
+    4300356: Default
+    4300358: Default
+    4300360: Default
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
