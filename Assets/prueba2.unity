@@ -781,7 +781,7 @@ GameObject:
   - 114: {fileID: 277756614}
   m_Layer: 0
   m_Name: REJAS02
-  m_TagString: Untagged
+  m_TagString: no
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1465,7 +1465,7 @@ GameObject:
   - 114: {fileID: 387976878}
   m_Layer: 0
   m_Name: REJAS04
-  m_TagString: Untagged
+  m_TagString: no
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2365,7 +2365,7 @@ GameObject:
   - 114: {fileID: 599137155}
   m_Layer: 0
   m_Name: REJAS03
-  m_TagString: Untagged
+  m_TagString: no
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2820,7 +2820,7 @@ GameObject:
   - 114: {fileID: 761257363}
   m_Layer: 0
   m_Name: REJAS05
-  m_TagString: Untagged
+  m_TagString: no
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3493,7 +3493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader1: {fileID: 4800000, guid: 29925646b83f6414aa4bc7d80aeebe40, type: 3}
-  shader2: {fileID: 0}
+  shader2: {fileID: 4800000, guid: 29925646b83f6414aa4bc7d80aeebe40, type: 3}
 --- !u!1 &1089351972
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,7 +3659,7 @@ GameObject:
   - 114: {fileID: 1139683069}
   m_Layer: 0
   m_Name: REJAS01
-  m_TagString: Untagged
+  m_TagString: no
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
