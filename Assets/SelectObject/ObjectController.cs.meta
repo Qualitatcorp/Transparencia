@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0803eb09f15ba4a45b8d36407e5d24a0
+timeCreated: 1454077768
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - aurora: {instanceID: 0}
+  - transparente: {fileID: 4800000, guid: 34aa4fbf0da289c478ee78941d409d7a, type: 3}
+  - otro: {instanceID: 0}
+  - mover_a: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

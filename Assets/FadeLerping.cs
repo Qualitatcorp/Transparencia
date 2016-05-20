@@ -36,40 +36,40 @@ public class FadeLerping : MonoBehaviour {
 	}
 
 	void Update(){
-//
-//
-//
-//		if (Input.GetKeyUp (KeyCode.Alpha1)) {
-//
-////			hijos_restantes = indexPadre (grupo);
-////			LerpingHijos (grupo);
-//			todosHijosFadeLerping();
-//		
-//		}
-////si no selecciono continuo y se define un grupo hace FaceLerping por cada hijo del grupo definido correspondiente al grupo del padre
-//		if (Input.GetKeyUp (KeyCode.Alpha2)) {
-//
-//
+
+
+
+		if (Input.GetKeyUp (KeyCode.Alpha1)) {
+
+//			hijos_restantes = indexPadre (grupo);
 //			LerpingHijos (grupo);
-//		}
-//
-//
-//		if (Input.GetKeyUp (KeyCode.Alpha3)) {
-//
-//
-//			todosGruposFadeLerping ();
-//
-//
-//		}
-////si no seleccino continuo y se define un grupo hara FaceLerping al grupo completo
-//
-//		if (Input.GetKeyUp (KeyCode.Alpha4)) {
-//
-//
-//			//if(grupo!=null)
-//					LerpingPadres (grupo);
-//
-//		}
+			todosHijosFadeLerping();
+		
+		}
+//si no selecciono continuo y se define un grupo hace FaceLerping por cada hijo del grupo definido correspondiente al grupo del padre
+		if (Input.GetKeyUp (KeyCode.Alpha2)) {
+
+
+			LerpingHijos (grupo);
+		}
+
+
+		if (Input.GetKeyUp (KeyCode.Alpha3)) {
+
+
+			todosGruposFadeLerping ();
+
+
+		}
+//si no seleccino continuo y se define un grupo hara FaceLerping al grupo completo
+
+		if (Input.GetKeyUp (KeyCode.Alpha4)) {
+
+
+			//if(grupo!=null)
+					LerpingPadres (grupo);
+
+		}
 	}
 
 

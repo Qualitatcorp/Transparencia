@@ -1,0 +1,32 @@
+################## Selección de Objetos #############################
+
+>> añadir script Camaratargert.cs a la cámara del jugador o a uno de sus ojos(si es que utilizan 2 camaras).
+Inspector:
+	targetingLayerMask  -> es para seleccionar las layers que seran visibles para los ojos del script(no es necesario tocarlo)
+	Titulos  -> (opcional) si agregan un objeto de texto del UI aparecera el nombre del objeto
+Script:
+58						if(Input.GetButtonDown("Fire1"))
+59					{
+60
+61					   if(!ob.bolseleccion())// aqui agregar script para acciones al momento de seleccionar
+62						{
+63						//vestirUna(ob.gameObject.tag);
+64							ob.colgar();
+65						    //Application.LoadLevel(1);
+66						}
+67						else // aqui agregar script para acciones almomento de desseleccionar
+68						{
+69							ob.descolgar();
+70						}
+71					}//fin if fire1
+
+>> añadir script objectController.cs al objeto que se quiera seleccionar, el objeto debe tener un collider (box collider, mesh collider, etc)
+Inspector:
+	Aurora -> (opcional) si agregan otro objeto aqui cuando miren un objeto tambien se activara el objeto seleccionado, si no miran el objeto el otro desaparecera.
+	Glow Color -> (por defecto blanco), para cambiar el color que toma el objeto al mirarlo
+	Transparente -> (ideal no tocar) es el shader utilizado para los objetos que se miran, esto hace que los objetos sean transparentes. por defecto trae Legacy Shaders/transparent/Bumped difuse
+	mover_a ->(opcional) si seleccionan el objeto este se movera a la posicion de otro objeto que este agregado aqui
+
+>> mouselook es opcional es para poder girar la camara con el mouse, si les da error lo eliminan puede ser que ya lo tengan en su proyecto
+
+

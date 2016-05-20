@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: c54f7a2f66a6b884cb728fadbaac1ca1
+timeCreated: 1463665572
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Baranda fondo
+    100002: baranda frente
+    100004: baranda frente 2
+    100006: Barandas abajo
+    100008: Barandas arriba
+    100010: Barras tapa
+    100012: Base con palitos
+    100014: Base estriada
+    100016: Base gorda
+    100018: Box001
+    100020: Box052
+    100022: Caja rara abajo
+    100024: Cajas locas
+    100026: Caldera
+    100028: "Ca\xF1erias abajo"
+    100030: Cilindro 2
+    100032: Cilindro 3
+    100034: Cilindro 4
+    100036: Cilindro centro
+    100038: Cilindro pedestal
+    100040: Cilindro pedestal 2
+    100042: Cilindros abajo
+    100044: Compuerta
+    100046: Cosa Rara abajo
+    100048: Cylinder004
+    100050: Elementos cabina
+    100052: Elementos cabina 2
+    100054: Escalera 1
+    100056: Escalera 2
+    100058: Escalera 3
+    100060: Escalera 4
+    100062: Estructura principal abajo
+    100064: Estructura subsuelo
+    100066: FOILFORCE
+    100068: Motor y val 2
+    100070: motor y val 3
+    100072: Motor y valvulas frente
+    100074: Motores abajo
+    100076: Panel
+    100078: Pared alta 01
+    100080: Pared alta 02
+    100082: Parte nueva izquierda
+    100084: Pilares
+    100086: Pilares ganchos
+    100088: Puerta y demas
+    100090: Rejas 2
+    100092: Rejas 3
+    100094: Rejas frente
+    100096: REJAS01
+    100098: REJAS02
+    100100: REJAS03
+    100102: REJAS04
+    100104: REJAS05
+    100106: Rodillos
+    100108: Ruedasss
+    100110: Sector escalera atras
+    100112: Soporte cosa rara
+    100114: Soporte fierritos
+    100116: Suelo alto
+    100118: Suelo principal
+    100120: Sujecion tapa
+    100122: Tail threader
+    100124: Tail threader001
+    100126: Tapa Valzone
+    100128: Tapas fondo
+    100130: Tapas frente
+    100132: Tapas frente 2
+    100134: VALZONE
+    100136: Valzone main
+    100138: //RootNode
+    100140: Vidrio
+    100142: Vidrios2
+    400000: Baranda fondo
+    400002: baranda frente
+    400004: baranda frente 2
+    400006: Barandas abajo
+    400008: Barandas arriba
+    400010: Barras tapa
+    400012: Base con palitos
+    400014: Base estriada
+    400016: Base gorda
+    400018: Box001
+    400020: Box052
+    400022: Caja rara abajo
+    400024: Cajas locas
+    400026: Caldera
+    400028: "Ca\xF1erias abajo"
+    400030: Cilindro 2
+    400032: Cilindro 3
+    400034: Cilindro 4
+    400036: Cilindro centro
+    400038: Cilindro pedestal
+    400040: Cilindro pedestal 2
+    400042: Cilindros abajo
+    400044: Compuerta
+    400046: Cosa Rara abajo
+    400048: Cylinder004
+    400050: Elementos cabina
+    400052: Elementos cabina 2
+    400054: Escalera 1
+    400056: Escalera 2
+    400058: Escalera 3
+    400060: Escalera 4
+    400062: Estructura principal abajo
+    400064: Estructura subsuelo
+    400066: FOILFORCE
+    400068: Motor y val 2
+    400070: motor y val 3
+    400072: Motor y valvulas frente
+    400074: Motores abajo
+    400076: Panel
+    400078: Pared alta 01
+    400080: Pared alta 02
+    400082: Parte nueva izquierda
+    400084: Pilares
+    400086: Pilares ganchos
+    400088: Puerta y demas
+    400090: Rejas 2
+    400092: Rejas 3
+    400094: Rejas frente
+    400096: REJAS01
+    400098: REJAS02
+    400100: REJAS03
+    400102: REJAS04
+    400104: REJAS05
+    400106: Rodillos
+    400108: Ruedasss
+    400110: Sector escalera atras
+    400112: Soporte cosa rara
+    400114: Soporte fierritos
+    400116: Suelo alto
+    400118: Suelo principal
+    400120: Sujecion tapa
+    400122: Tail threader
+    400124: Tail threader001
+    400126: Tapa Valzone
+    400128: Tapas fondo
+    400130: Tapas frente
+    400132: Tapas frente 2
+    400134: VALZONE
+    400136: Valzone main
+    400138: //RootNode
+    400140: Vidrio
+    400142: Vidrios2
+    2300000: Baranda fondo
+    2300002: baranda frente
+    2300004: baranda frente 2
+    2300006: Barandas abajo
+    2300008: Barandas arriba
+    2300010: Barras tapa
+    2300012: Base con palitos
+    2300014: Base estriada
+    2300016: Base gorda
+    2300018: Box001
+    2300020: Box052
+    2300022: Caja rara abajo
+    2300024: Cajas locas
+    2300026: Caldera
+    2300028: "Ca\xF1erias abajo"
+    2300030: Cilindro 2
+    2300032: Cilindro 3
+    2300034: Cilindro 4
+    2300036: Cilindro centro
+    2300038: Cilindro pedestal
+    2300040: Cilindro pedestal 2
+    2300042: Cilindros abajo
+    2300044: Compuerta
+    2300046: Cosa Rara abajo
+    2300048: Cylinder004
+    2300050: Elementos cabina
+    2300052: Elementos cabina 2
+    2300054: Escalera 1
+    2300056: Escalera 2
+    2300058: Escalera 3
+    2300060: Escalera 4
+    2300062: Estructura principal abajo
+    2300064: Estructura subsuelo
+    2300066: FOILFORCE
+    2300068: Motor y val 2
+    2300070: motor y val 3
+    2300072: Motor y valvulas frente
+    2300074: Motores abajo
+    2300076: Panel
+    2300078: Pared alta 01
+    2300080: Pared alta 02
+    2300082: Parte nueva izquierda
+    2300084: Pilares
+    2300086: Pilares ganchos
+    2300088: Puerta y demas
+    2300090: Rejas 2
+    2300092: Rejas 3
+    2300094: Rejas frente
+    2300096: REJAS01
+    2300098: REJAS02
+    2300100: REJAS03
+    2300102: REJAS04
+    2300104: REJAS05
+    2300106: Rodillos
+    2300108: Ruedasss
+    2300110: Sector escalera atras
+    2300112: Soporte cosa rara
+    2300114: Soporte fierritos
+    2300116: Suelo alto
+    2300118: Suelo principal
+    2300120: Sujecion tapa
+    2300122: Tail threader
+    2300124: Tail threader001
+    2300126: Tapa Valzone
+    2300128: Tapas fondo
+    2300130: Tapas frente
+    2300132: Tapas frente 2
+    2300134: VALZONE
+    2300136: Valzone main
+    2300138: Vidrio
+    2300140: Vidrios2
+    3300000: Baranda fondo
+    3300002: baranda frente
+    3300004: baranda frente 2
+    3300006: Barandas abajo
+    3300008: Barandas arriba
+    3300010: Barras tapa
+    3300012: Base con palitos
+    3300014: Base estriada
+    3300016: Base gorda
+    3300018: Box001
+    3300020: Box052
+    3300022: Caja rara abajo
+    3300024: Cajas locas
+    3300026: Caldera
+    3300028: "Ca\xF1erias abajo"
+    3300030: Cilindro 2
+    3300032: Cilindro 3
+    3300034: Cilindro 4
+    3300036: Cilindro centro
+    3300038: Cilindro pedestal
+    3300040: Cilindro pedestal 2
+    3300042: Cilindros abajo
+    3300044: Compuerta
+    3300046: Cosa Rara abajo
+    3300048: Cylinder004
+    3300050: Elementos cabina
+    3300052: Elementos cabina 2
+    3300054: Escalera 1
+    3300056: Escalera 2
+    3300058: Escalera 3
+    3300060: Escalera 4
+    3300062: Estructura principal abajo
+    3300064: Estructura subsuelo
+    3300066: FOILFORCE
+    3300068: Motor y val 2
+    3300070: motor y val 3
+    3300072: Motor y valvulas frente
+    3300074: Motores abajo
+    3300076: Panel
+    3300078: Pared alta 01
+    3300080: Pared alta 02
+    3300082: Parte nueva izquierda
+    3300084: Pilares
+    3300086: Pilares ganchos
+    3300088: Puerta y demas
+    3300090: Rejas 2
+    3300092: Rejas 3
+    3300094: Rejas frente
+    3300096: REJAS01
+    3300098: REJAS02
+    3300100: REJAS03
+    3300102: REJAS04
+    3300104: REJAS05
+    3300106: Rodillos
+    3300108: Ruedasss
+    3300110: Sector escalera atras
+    3300112: Soporte cosa rara
+    3300114: Soporte fierritos
+    3300116: Suelo alto
+    3300118: Suelo principal
+    3300120: Sujecion tapa
+    3300122: Tail threader
+    3300124: Tail threader001
+    3300126: Tapa Valzone
+    3300128: Tapas fondo
+    3300130: Tapas frente
+    3300132: Tapas frente 2
+    3300134: VALZONE
+    3300136: Valzone main
+    3300138: Vidrio
+    3300140: Vidrios2
+    4300000: Compuerta
+    4300002: Vidrio
+    4300004: VALZONE
+    4300006: Motor y valvulas frente
+    4300008: Tapas frente
+    4300010: Escalera 3
+    4300012: Cilindro 3
+    4300014: Pared alta 02
+    4300016: Escalera 1
+    4300018: Escalera 2
+    4300020: Cilindro 2
+    4300022: Barandas arriba
+    4300024: Motores abajo
+    4300026: Cosa Rara abajo
+    4300028: Suelo principal
+    4300030: Soporte cosa rara
+    4300032: Cilindros abajo
+    4300034: Base gorda
+    4300036: Estructura principal abajo
+    4300038: Base con palitos
+    4300040: Soporte fierritos
+    4300042: Escalera 4
+    4300044: Puerta y demas
+    4300046: Motor y val 2
+    4300048: Base estriada
+    4300050: Cilindro 4
+    4300052: Elementos cabina
+    4300054: Sujecion tapa
+    4300056: baranda frente
+    4300058: Baranda fondo
+    4300060: Tapa Valzone
+    4300062: Tapas fondo
+    4300064: Cajas locas
+    4300066: Rejas 2
+    4300068: motor y val 3
+    4300070: Cilindro pedestal
+    4300072: Pilares
+    4300074: Pilares ganchos
+    4300076: Rejas frente
+    4300078: Suelo alto
+    4300080: Cilindro centro
+    4300082: Barras tapa
+    4300084: Rejas 3
+    4300086: Cilindro pedestal 2
+    4300088: Caldera
+    4300090: "Ca\xF1erias abajo"
+    4300092: Caja rara abajo
+    4300094: Panel
+    4300096: Barandas abajo
+    4300098: Pared alta 01
+    4300100: Estructura subsuelo
+    4300102: Sector escalera atras
+    4300104: Valzone main
+    4300106: Rodillos
+    4300108: Parte nueva izquierda
+    4300110: REJAS01
+    4300112: REJAS02
+    4300114: REJAS03
+    4300116: REJAS04
+    4300118: REJAS05
+    4300120: Box001
+    4300122: Tail threader
+    4300124: Box052
+    4300126: Tail threader001
+    4300128: FOILFORCE
+    4300130: Cylinder004
+    4300132: Ruedasss
+    4300134: baranda frente 2
+    4300136: Vidrios2
+    4300138: Tapas frente 2
+    4300140: Elementos cabina 2
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

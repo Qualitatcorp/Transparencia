@@ -2,17 +2,17 @@
 using System.Collections;
 
 public class lerptrasnparente : MonoBehaviour {
-//	void Update ()
-//	{
-//		if(Input.GetKeyUp(KeyCode.T))
-//		{
-//			StartCoroutine(FadeTo(0.5f, 1.0f));
-//		}
-//		if(Input.GetKeyUp(KeyCode.F))
-//		{
-//			StartCoroutine(FadeTo(1.0f, 1.0f));
-//		}
-//	}
+	void Update ()
+	{
+		if(Input.GetKeyUp(KeyCode.T))
+		{
+			StartCoroutine(FadeTo(0.5f, 1.0f));
+		}
+		if(Input.GetKeyUp(KeyCode.F))
+		{
+			StartCoroutine(FadeTo(1.0f, 1.0f));
+		}
+	}
 
 	IEnumerator FadeTo(float aValue, float aTime)
 	{
@@ -28,7 +28,7 @@ public class lerptrasnparente : MonoBehaviour {
 
 	public void lerpingON (){
 
-		StartCoroutine(FadeTo(0.0f, 1.0f));
+		StartCoroutine(FadeTo(0.3f, 1.0f));
 
 	}
 	public void lerpingOFF (){
