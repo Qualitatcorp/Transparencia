@@ -154,7 +154,17 @@ public class FadeLerping : MonoBehaviour {
 				if (parar == false) {
 				//	print ("ELEMENTO ACTIVADO: " + children [index].name);
 					//children [index].GetComponent<lerptrasnparente> ().enabled== false;
-					children [index].gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();//si la confdicion del grupo es correcta aplica lerpingOFF
+
+					children [index].gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 0.0f);
+					children [index].gameObject.GetComponent<Renderer> ().material.SetInt ("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+					children [index].gameObject.GetComponent<Renderer> ().material.SetInt ("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+					children [index].gameObject.GetComponent<Renderer> ().material.SetInt ("_ZWrite", 1);
+					children [index].gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHATEST_ON");
+					children [index].gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHABLEND_ON");
+					children [index].gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHAPREMULTIPLY_ON");
+					children [index].gameObject.GetComponent<Renderer> ().material.renderQueue = -1;
+
+					children [index].gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();//si la condicion del grupo es correcta aplica lerpingOFF
 					parar = true;
 					//hijos_restantes--;
 					contador++;
@@ -181,13 +191,29 @@ public class FadeLerping : MonoBehaviour {
 
 		for (i = 0; i <siguiente_hijo-1; i++) {
 					
-						//	print ("antes-> "+children [i].name);
-			children [i].gameObject.GetComponent<lerptrasnparente> ().lerpingON();
+			//	print ("antes-> "+children [i].name);joint.gameObject.GetComponent<Renderer> ().material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 2);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_ZWrite", 0);
+			children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHATEST_ON");
+			children[i].gameObject.GetComponent<Renderer> ().material.EnableKeyword("_ALPHABLEND_ON");
+			children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+			children[i].gameObject.GetComponent<Renderer> ().material.renderQueue = 3000;
+			children[i].gameObject.GetComponent<lerptrasnparente> ().lerpingON();
 					}
 
 		for (i = siguiente_hijo; i < children.Count; i++) {
 			//print ("no lo muestra y tiene index: " + i);
 			//print ("despues-> "+children [i].name);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 2);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+			children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_ZWrite", 0);
+			children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHATEST_ON");
+			children[i].gameObject.GetComponent<Renderer> ().material.EnableKeyword("_ALPHABLEND_ON");
+			children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+			children[i].gameObject.GetComponent<Renderer> ().material.renderQueue = 3000;
 			children [i].gameObject.GetComponent<lerptrasnparente> ().lerpingON();
 		}
 
@@ -197,19 +223,55 @@ public class FadeLerping : MonoBehaviour {
 public void LerpingPadres (string grupo)
 	{
 
-		lerptrasnparente[] elementos = FindObjectsOfType (typeof(lerptrasnparente)) as lerptrasnparente[];
+		StartCoroutine (lerpingPadres (padres,grupo));
 
+//		foreach (Transform padre in padres) {
+//			foreach (Transform hijo in padre) {
+//
+//				if (hijo.gameObject.tag == grupo) {
+//					
+//						
+////					print (hijo.name);
+////					hijo.gameObject.GetComponent<lerptrasnparente> ().RenderTransOFF (hijo);
+////					hijo.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
+//				} else {
+////					hijo.gameObject.GetComponent<lerptrasnparente> ().RenderTransON(hijo);
+////					hijo.gameObject.GetComponent<lerptrasnparente> ().lerpingON ();
+//				}
+//			}
+//		}
 
-		foreach (lerptrasnparente actual in elementos) {
-
-			if (actual.gameObject.tag == grupo)
-				//print(actual.GetType ());
-				actual.lerpingOFF ();
-
-			else
-				actual.lerpingON ();
-
-		}
+//		lerptrasnparente[] elementos = FindObjectsOfType (typeof(lerptrasnparente)) as lerptrasnparente[];
+//
+//
+//		foreach (lerptrasnparente actual in elementos) {
+//
+//			if (actual.gameObject.tag == grupo) {
+//				//print(actual.GetType ());
+////				actual.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 0);
+////				actual.gameObject.GetComponent<Renderer> ().material.SetInt ("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+////				actual.gameObject.GetComponent<Renderer> ().material.SetInt ("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+////				actual.gameObject.GetComponent<Renderer> ().material.SetInt ("_ZWrite", 1);
+////				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHATEST_ON");
+////				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHABLEND_ON");
+////				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHAPREMULTIPLY_ON");
+////				actual.gameObject.GetComponent<Renderer> ().material.renderQueue = -1;
+//				actual.gameObject.GetComponent<lerptrasnparente> ().RenderTransOFF(actual);
+//				actual.lerpingOFF ();
+//			}
+//			else {
+////				actual.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 2);
+////				actual.gameObject.GetComponent<Renderer> ().material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+////				actual.gameObject.GetComponent<Renderer> ().material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+////				actual.gameObject.GetComponent<Renderer> ().material.SetInt("_ZWrite", 0);
+////				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHATEST_ON");
+////				actual.gameObject.GetComponent<Renderer> ().material.EnableKeyword("_ALPHABLEND_ON");
+////				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+////				actual.gameObject.GetComponent<Renderer> ().material.renderQueue = 3000;
+//				actual.gameObject.GetComponent<lerptrasnparente> ().RenderTransON(actual);
+//				actual.lerpingON ();
+//			}
+//		}
 	} 
 
 public void todosHijosFadeLerping(){
@@ -227,7 +289,8 @@ public void todosHijosFadeLerping(){
 
 		if(normal){
 
-			StartCoroutine (terminaFade ());
+		//	StartCoroutine (terminaFade ());
+			finalizando(padres);
 
 
 		}
@@ -252,21 +315,177 @@ public void todosGruposFadeLerping(){
 
 		if(normal){
 			
-			StartCoroutine (terminaFade ());
+			//StartCoroutine (terminaFade ());
+			finalizando(padres);
 
 	
 			}
 }
 
-	IEnumerator terminaFade (){
+	public void finalizando(Transform[] elementos){
+	
+	
+		StartCoroutine (terminaFade (elementos));
+	}
 
-		yield return new WaitForSeconds(2);
-		foreach(Transform padre in padres){
-			foreach(Transform normalidad in padre )	{
-				normalidad.gameObject.GetComponent<lerptrasnparente>().lerpingOFF();
+
+	IEnumerator terminaFade (Transform[] elementos){
+
+		//yield return new WaitForSeconds (1.5f);
+		yield return new WaitForSeconds (0.8f);
+		foreach (Transform padre in elementos) {
+			foreach (Transform normalidad in padre) {
+				
+				normalidad.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
 				//print(normalidad.name);
 			}
+
+
+
+
+		}
+		yield return new WaitForSeconds (0.8f);
+
+		foreach (Transform padre in elementos) {
+			foreach (Transform normalidad in padre) {
+
+				if (normalidad.tag != "no") {
+					normalidad.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 0);
+					normalidad.gameObject.GetComponent<Renderer> ().material.SetInt ("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+					normalidad.gameObject.GetComponent<Renderer> ().material.SetInt ("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+					normalidad.gameObject.GetComponent<Renderer> ().material.SetInt ("_ZWrite", 1);
+					normalidad.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHATEST_ON");
+					normalidad.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHABLEND_ON");
+					normalidad.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHAPREMULTIPLY_ON");
+					normalidad.gameObject.GetComponent<Renderer> ().material.renderQueue = -1;
+				}
+			}
+
+
 		}
 
 	}
+
+
+	public void finalizando(Transform elemento){
+
+
+		StartCoroutine (terminaFade (elemento));
+	}
+
+
+	IEnumerator terminaFade (Transform elemento){
+
+		//yield return new WaitForSeconds (1.5f);
+		yield return new WaitForSeconds (0.8f);
+		foreach (Transform padre in elemento) {
+
+
+			padre.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
+				//print(normalidad.name);
+			}
+
+
+
+
+
+		yield return new WaitForSeconds (0.8f);
+
+		foreach (Transform padre in elemento) {
+			
+
+			if (padre.tag != "no") {
+				padre.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 0.0f);
+				padre.gameObject.GetComponent<Renderer> ().material.SetInt ("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+				padre.gameObject.GetComponent<Renderer> ().material.SetInt ("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+				padre.gameObject.GetComponent<Renderer> ().material.SetInt ("_ZWrite", 1);
+				padre.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHATEST_ON");
+				padre.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHABLEND_ON");
+				padre.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHAPREMULTIPLY_ON");
+				padre.gameObject.GetComponent<Renderer> ().material.renderQueue = -1;
+
+			}
+
+
+		}
+		print ("b");
+	}
+
+
+	IEnumerator lerpingPadres (Transform[] elemento, string grupo){
+
+		//yield return new WaitForSeconds (1.5f);
+		yield return new WaitForSeconds (0.1f);
+
+
+
+
+		foreach (Transform padre in elemento) {
+			foreach (Transform hijo in padre) {
+
+				if (hijo.gameObject.tag == grupo) {
+
+
+					//					print (hijo.name);
+					//					hijo.gameObject.GetComponent<lerptrasnparente> ().RenderTransOFF (hijo);
+					hijo.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
+				} else {
+					hijo.gameObject.GetComponent<lerptrasnparente> ().lerpingON ();
+				}
+			}
+		}
+
+
+
+		yield return new WaitForSeconds (0.1f);
+
+		foreach (Transform padre in elemento) {
+			foreach (Transform hijo in padre) {
+
+				if (hijo.gameObject.tag == grupo) {
+
+
+					//					print (hijo.name);
+										hijo.gameObject.GetComponent<lerptrasnparente> ().RenderTransOFF (hijo);
+					//hijo.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
+				}else{
+					hijo.gameObject.GetComponent<lerptrasnparente> ().RenderTransON (hijo);
+				} 
+			}
+		}
+
+		print ("b");
+	}
+
+//	IEnumerator atras(List<GameObject> children, int i){
+//		children[i].gameObject.GetComponent<lerptrasnparente> ().lerpingON();
+//	
+//		yield return new WaitForSeconds (0.1);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 2);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_ZWrite", 0);
+//		children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHATEST_ON");
+//		children[i].gameObject.GetComponent<Renderer> ().material.EnableKeyword("_ALPHABLEND_ON");
+//		children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+//		children[i].gameObject.GetComponent<Renderer> ().material.renderQueue = 3000;
+//		children[i].gameObject.GetComponent<lerptrasnparente> ().lerpingON();
+//	}
+//
+//	IEnumerator adelante(List<GameObject> children, int i){
+//		children[i].gameObject.GetComponent<lerptrasnparente> ().lerpingOFF();
+//
+//		yield return new WaitForSeconds (0.1);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 2);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+//		children[i].gameObject.GetComponent<Renderer> ().material.SetInt("_ZWrite", 0);
+//		children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHATEST_ON");
+//		children[i].gameObject.GetComponent<Renderer> ().material.EnableKeyword("_ALPHABLEND_ON");
+//		children[i].gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+//		children[i].gameObject.GetComponent<Renderer> ().material.renderQueue = 3000;
+//		children[i].gameObject.GetComponent<lerptrasnparente> ().lerpingON();
+//	}
+
+
 }

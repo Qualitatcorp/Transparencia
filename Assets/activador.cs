@@ -37,8 +37,11 @@ public class activador : MonoBehaviour {
 			if (contador == 1) {//en la primera iteracion hace trasnparente todos los demas elementos
 				foreach (Transform joint in otrosTransparentes) {
 
-					//joint.gameObject.GetComponent<MeshRenderer> ().material.SetFloat("_Mode", 3.0f);
-					joint.gameObject.GetComponent<lerptrasnparente> ().lerpingON ();
+
+//					joint.gameObject.GetComponent<lerptrasnparente> ().RenderTransON(joint);
+//
+//
+//					joint.gameObject.GetComponent<lerptrasnparente> ().lerpingON ();
 					//print(joint.gameObject.name);
 				}
 			}
@@ -52,14 +55,26 @@ public class activador : MonoBehaviour {
 
 			if (contador==numeroEstaciones+1) {//cuando termina de pasar por todas las estaciones vuelven a su estado normal todos los demas elementos
 
-				print ("ENTRO");
+				print ("ENTRO FINALIZANDO");
+				this.GetComponent<FadeLerping>().finalizando(otrosTransparentes);
+				//StartCoroutine (restaura ());
 				foreach (Transform joint in otrosTransparentes) {
-
-
-					joint.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
-					//				
-					//				print (normalidad);
-
+//
+					//joint.gameObject.GetComponent<lerptrasnparente> ().RenderTransOFF(joint);
+//
+//					joint.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 0);
+//					joint.gameObject.GetComponent<Renderer> ().material.SetInt ("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+//					joint.gameObject.GetComponent<Renderer> ().material.SetInt ("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+//					joint.gameObject.GetComponent<Renderer> ().material.SetInt ("_ZWrite", 1);
+//					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHATEST_ON");
+//					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHABLEND_ON");
+//					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHAPREMULTIPLY_ON");
+//					joint.gameObject.GetComponent<Renderer> ().material.renderQueue = -1;
+//
+				//	joint.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
+//					//				
+//					//				print (normalidad);
+//
 				}
 				normalidad = true;
 				this.GetComponent<FadeLerping> ().todosGruposFadeLerping ();
@@ -76,8 +91,19 @@ public class activador : MonoBehaviour {
 			if (contador == 0) {//en la primera iteracion hace trasnparente todos los demas elementos
 				foreach (Transform joint in otrosTransparentes) {
 
-					//joint.gameObject.GetComponent<MeshRenderer> ().material.SetFloat("_Mode", 3.0f);
-					joint.gameObject.GetComponent<lerptrasnparente> ().lerpingON ();
+//					joint.gameObject.GetComponent<MeshRenderer> ().material.SetFloat("_Mode", 3.0f);
+//					joint.gameObject.GetComponent<lerptrasnparente> ().RenderTransON(joint);
+//
+//					joint.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 2);
+//					joint.gameObject.GetComponent<Renderer> ().material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+//					joint.gameObject.GetComponent<Renderer> ().material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+//					joint.gameObject.GetComponent<Renderer> ().material.SetInt("_ZWrite", 0);
+//					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHATEST_ON");
+//					joint.gameObject.GetComponent<Renderer> ().material.EnableKeyword("_ALPHABLEND_ON");
+//					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+//					joint.gameObject.GetComponent<Renderer> ().material.renderQueue = 3000;
+//
+//					joint.gameObject.GetComponent<lerptrasnparente> ().lerpingON ();
 					//print(joint.gameObject.name);
 				}
 				//contador = 1;
@@ -97,15 +123,27 @@ public class activador : MonoBehaviour {
 			//print (contador);
 		if (contador==numeroEstaciones) {//cuando termina de pasar por todas las estaciones vuelven a su estado normal todos los demas elementos
 				
-				print ("ENTRO");
-				foreach (Transform joint in otrosTransparentes) {
-
-
-					joint.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
-					//				
-					//				print (normalidad);
-
-				}
+				print ("ENTRO FINALIZANDO");
+				this.GetComponent<FadeLerping> ().finalizando (otrosTransparentes);
+				//StartCoroutine (restaura ());
+//				foreach (Transform joint in otrosTransparentes) {
+//
+//					//joint.gameObject.GetComponent<lerptrasnparente> ().RenderTransOFF(joint);
+//
+////					joint.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 0);
+////					joint.gameObject.GetComponent<Renderer> ().material.SetInt ("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+////					joint.gameObject.GetComponent<Renderer> ().material.SetInt ("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+////					joint.gameObject.GetComponent<Renderer> ().material.SetInt ("_ZWrite", 1);
+////					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHATEST_ON");
+////					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHABLEND_ON");
+////					joint.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHAPREMULTIPLY_ON");
+////					joint.gameObject.GetComponent<Renderer> ().material.renderQueue = -1;
+//
+//				//	joint.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
+//					//				
+//					//				print (normalidad);
+//
+//				}
 				normalidad = true;
 				print ("normalidadaaaa");
 				this.GetComponent<FadeLerping> ().todosHijosFadeLerping ();
@@ -136,5 +174,28 @@ public class activador : MonoBehaviour {
 		this.GetComponent<FadeLerping> ().todosHijosFadeLerping ();
 		yield return new WaitForSeconds(1);
 	}
+
+//	IEnumerator restaura(){
+//		
+//
+//		foreach (Transform actual in otrosTransparentes)
+//			actual.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
+//
+//		yield return new WaitForSeconds(1.5f);
+//
+//		foreach (Transform actual in otrosTransparentes){
+//			if (actual.tag != "no") {
+//				actual.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Mode", 0);
+//				actual.gameObject.GetComponent<Renderer> ().material.SetInt ("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+//				actual.gameObject.GetComponent<Renderer> ().material.SetInt ("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+//				actual.gameObject.GetComponent<Renderer> ().material.SetInt ("_ZWrite", 1);
+//				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHATEST_ON");
+//				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHABLEND_ON");
+//				actual.gameObject.GetComponent<Renderer> ().material.DisableKeyword ("_ALPHAPREMULTIPLY_ON");
+//				actual.gameObject.GetComponent<Renderer> ().material.renderQueue = -1;
+//			}
+//		}
+//		print ("a");
+//	}
 }
 

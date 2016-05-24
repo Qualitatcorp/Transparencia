@@ -19,6 +19,8 @@ public class objRenderTrans : MonoBehaviour {
 
 		if (Input.GetKeyUp (KeyCode.P)) {
 
+//			print (Time.deltaTime);
+
 			lerptrasnparente[] elementos = FindObjectsOfType (typeof(lerptrasnparente)) as lerptrasnparente[];
 			print(elementos.Length);
 			int i;
@@ -49,10 +51,12 @@ public class objRenderTrans : MonoBehaviour {
 				actual.gameObject.GetComponent<Renderer> ().material.renderQueue = 3000;
 				actual.gameObject.GetComponent<lerptrasnparente> ().lerpingON ();
 
-				if (actual.gameObject.GetComponent<Renderer> ().material.GetFloat ("_Mode") == 2)
-					print (actual.name);
-
+//				if (actual.gameObject.GetComponent<Renderer> ().material.GetFloat ("_Mode") == 2)
+//					print (actual.name);
+//
 			}
+//
+//			print (Time.deltaTime);
 		}
 	
 
@@ -86,7 +90,7 @@ public class objRenderTrans : MonoBehaviour {
 		foreach (lerptrasnparente actual in elementos2)
 			actual.gameObject.GetComponent<lerptrasnparente> ().lerpingOFF ();
 
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.8f);
 
 		foreach (lerptrasnparente actual in elementos2){
 			if (actual.tag != "no") {
